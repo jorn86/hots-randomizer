@@ -35,6 +35,31 @@
     "universe": "Diablo"
   },
   {
+    "name": "Leoric",
+    "role": "Warrior",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Johanna",
+    "role": "Warrior",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Diablo",
+    "role": "Warrior",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Tyrael",
+    "role": "Warrior",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Sonya",
+    "role": "Warrior",
+    "universe": "Diablo"
+  },
+  {
     "name": "Cho",
     "role": "Warrior",
     "universe": "Warcraft"
