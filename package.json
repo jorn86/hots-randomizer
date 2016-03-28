@@ -1,0 +1,16 @@
+{
+  "name": "hots-randomizer",
+  "version": "0.0.0",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorn86/hots-randomizer.git"
+  },
+  "scripts": {
+    "postinstall": "cd app && npm install",
+
+    "prewar": "npm install",
+    "war": "npm run quick-war",
+    "quick-war": "jar cmf manifest.mf hots.war -C app/ ."
+  }
+}
