@@ -1,0 +1,62 @@
+<html ng-app="hots">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+    <title>Heroes of the Storm Randomizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href=".">
+
+    <link rel="stylesheet" href="app.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <script src="node_modules/underscore/underscore-min.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+
+    <script src="app.js"></script>
+
+</head>
+<body ng-controller="AppController">
+<div style="display:inline-block; width: 50%">
+    <table>
+        <tr><td>Role filter</td>
+            <td><label><input type="checkbox" ng-model="filter.warrior"> Warrior</label></td>
+            <td><label><input type="checkbox" ng-model="filter.assassin"> Assassin</label></td>
+            <td><label><input type="checkbox" ng-model="filter.support"> Support</label></td>
+            <td><label><input type="checkbox" ng-model="filter.specialist"> Specialist</label></td>
+            <td rowspan="2"><input type="button" value="Random!" ng-click="random()"></td>
+        </tr>
+        <tr><td>Universe filter</td>
+            <td><label><input type="checkbox" ng-model="filter.warcraft"> Warcraft</label></td>
+            <td><label><input type="checkbox" ng-model="filter.starcraft"> Starcraft</label></td>
+            <td><label><input type="checkbox" ng-model="filter.diablo"> Diablo</label></td>
+        </tr>
+    </table>
+    <table>
+        <thead>
+        <tr>
+            <th>Avatar</th>
+            <th>Ignore</th>
+            <th ng-click="sort('name')">Name</th>
+            <th ng-click="sort('role')">Role</th>
+            <th ng-click="sort('universe')">Universe</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="hero in data | filter : filterFunction | orderBy : sorting : descending">
+                <td><img ng-src="img/heroes/{{hero.name}}_square_tile.png">&nbsp;</td>
+                <td><input type="checkbox" ng-model="hero.ignore"></td>
+                <td>{{hero.name}}</td>
+                <td>{{hero.role}}</td>
+                <td>{{hero.universe}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div style="display:inline-block; width: 50%; float: right" ng-show="result">
+    <h2>You will play:</h2>
+    <img ng-src="img/heroes/{{result.name}}_square_tile.png">
+    {{result.name}}
+</div>
+</body>
+</html>

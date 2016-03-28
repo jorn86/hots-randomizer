@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Xul",
+    "role": "Specialist",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Azmodan",
+    "role": "Specialist",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Nazeebo",
+    "role": "Specialist",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Kharazim",
+    "role": "Support",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Li-Ming",
+    "role": "Assassin",
+    "universe": "Diablo"
+  },
+  {
+    "name": "The Butcher",
+    "role": "Assassin",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Valla",
+    "role": "Assassin",
+    "universe": "Diablo"
+  },
+  {
+    "name": "Cho",
+    "role": "Warrior",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Rexxar",
+    "role": "Warrior",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Anub'Arak",
+    "role": "Warrior",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Chen",
+    "role": "Warrior",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Stitches",
+    "role": "Warrior",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Arthas",
+    "role": "Warrior",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "E.T.C.",
+    "role": "Warrior",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Muradin",
+    "role": "Warrior",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Greymane",
+    "role": "Assassin",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Lunara",
+    "role": "Assassin",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Kael'Thas",
+    "role": "Assassin",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Thrall",
+    "role": "Assassin",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Jaina",
+    "role": "Assassin",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Falstad",
+    "role": "Assassin",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Illidan",
+    "role": "Assassin",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Rehgar",
+    "role": "Support",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Li Li",
+    "role": "Support",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Brightwing",
+    "role": "Support",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Uther",
+    "role": "Support",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Malfurion",
+    "role": "Support",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Tyrande",
+    "role": "Support",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Sylvanas",
+    "role": "Specialist",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Murky",
+    "role": "Specialist",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Gazlowe",
+    "role": "Specialist",
+    "universe": "Warcraft"
+  },
+  {
+    "name": "Zagara",
+    "role": "Specialist",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Abathur",
+    "role": "Specialist",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Sgt. Hammer",
+    "role": "Specialist",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Lt. Morales",
+    "role": "Support",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Tassadar",
+    "role": "Support",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Tychus",
+    "role": "Assassin",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Kerrigan",
+    "role": "Assassin",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Nova",
+    "role": "Assassin",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Raynor",
+    "role": "Assassin",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Zeratul",
+    "role": "Assassin",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "Artanis",
+    "role": "Warrior",
+    "universe": "Starcraft"
+  },
+  {
+    "name": "The Lost Vikings",
+    "role": "Specialist",
+    "universe": "Blizzard Classics"
+  }
+]

@@ -1,0 +1,2 @@
+Name: hots-randomizer
+Specification-Version: 0.1

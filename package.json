@@ -11,6 +11,6 @@
 
     "prewar": "npm install",
     "war": "npm run quick-war",
-    "quick-war": "jar cmf manifest.mf hots.war -C app/ ."
+    "quick-war": "jar cmf manifest.mf hots.war WEB-INF -C app/ ."
   }
 }

@@ -1,4 +1,5 @@
 .idea/
 **/*.iml
+**/*.war
 node_modules/
 *.log
