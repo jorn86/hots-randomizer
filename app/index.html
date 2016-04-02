@@ -17,7 +17,7 @@
 
 </head>
 <body ng-controller="AppController">
-<div style="display:inline-block; width: 50%">
+<div class="left">
     <table>
         <tr><td>Role filter</td>
             <td><label><input type="checkbox" ng-model="filter.warrior"> Warrior</label></td>
@@ -43,7 +43,7 @@
         </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="hero in data | filter : filterFunction | orderBy : sorting : descending">
+            <tr ng-repeat="hero in data | filter : filterFunction | orderBy : sorting : descending" ng-class="{ignore: hero.ignore}">
                 <td><img ng-src="img/heroes/{{hero.name}}_square_tile.png">&nbsp;</td>
                 <td><input type="checkbox" ng-model="hero.ignore"></td>
                 <td>{{hero.name}}</td>
@@ -53,7 +53,7 @@
         </tbody>
     </table>
 </div>
-<div style="display:inline-block; width: 50%; float: right" ng-show="result">
+<div class="right" ng-show="result">
     <h2>You will play:</h2>
     <img ng-src="img/heroes/{{result.name}}_square_tile.png">
     {{result.name}}
