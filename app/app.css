@@ -10,3 +10,10 @@
 .ignore {
     opacity: 0.4;
 }
+
+.sortorder:after {
+    content: '\25b2'; /* up arrow */
+}
+.sortorder.reverse:after {
+    content: '\25bc'; /* down arrow */
+}

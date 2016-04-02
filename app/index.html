@@ -37,9 +37,9 @@
         <tr>
             <th>Avatar</th>
             <th>Ignore</th>
-            <th ng-click="sort('name')">Name</th>
-            <th ng-click="sort('role')">Role</th>
-            <th ng-click="sort('universe')">Universe</th>
+            <th ng-class="{sortorder: sorting === 'name', reverse: descending}" ng-click="sort('name')">Name</th>
+            <th ng-class="{sortorder: sorting === 'role', reverse: descending}" ng-click="sort('role')">Role</th>
+            <th ng-class="{sortorder: sorting === 'universe', reverse: descending}" ng-click="sort('universe')">Universe</th>
         </tr>
         </thead>
         <tbody>
